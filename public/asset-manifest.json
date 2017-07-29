@@ -1,0 +1,5 @@
+{
+  "main.css": "style.css",
+  "main.css.map": "style.css.map",
+  "main.js": "bundle.js"
+}

@@ -1,0 +1,40 @@
+{
+  "name": "react-pwa",
+  "version": "1.0.0",
+  "description": "React sample code used as starting point to create a PWA",
+  "main": "index.js",
+  "author": "Samuele Zaza",
+  "license": "MIT",
+  "scripts": {
+    "start": "NODE_ENV=development webpack-dev-server",
+    "build": "NODE_ENV=production webpack"
+  },
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-router-dom": "^4.1.1"
+  },
+  "devDependencies": {
+    "add": "^2.0.6",
+    "babel": "^6.23.0",
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.25.0",
+    "babel-eslint": "^7.2.3",
+    "babel-loader": "^7.1.1",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "copy-webpack-plugin": "^4.0.1",
+    "css-loader": "^0.28.4",
+    "extract-text-webpack-plugin": "^2.1.2",
+    "html-webpack-plugin": "^2.29.0",
+    "http-server": "^0.10.0",
+    "react-hot-loader": "next",
+    "style-loader": "^0.18.2",
+    "sw-precache-webpack-plugin": "^0.11.3",
+    "webpack": "^3.0.0",
+    "webpack-dev-server": "^2.5.0",
+    "webpack-manifest-plugin": "^1.1.0",
+    "webpack-merge": "^4.1.0",
+    "yarn": "^0.27.5"
+  }
+}
